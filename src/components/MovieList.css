@@ -1,0 +1,39 @@
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #20232a; /* Dark background */
+  }
+  
+  .movie-card {
+    background-color: #2b2f37; /* Slightly lighter background for cards */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff; /* White text */
+    transition: transform 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #444; /* Divider below the poster */
+  }
+  
+  .movie-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .movie-rating {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #ffcc00; /* Golden color for rating */
+  }
+  
